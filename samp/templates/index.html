@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>countdown</title>
+    <link rel="stylesheet" href="{% static 'samp/style.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="{% static 'samp/script.js' %}"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <h1 class="heading">Launcing of Aspire Events official website</h1>
+        <h2>countdown Begins....</h2>
+        <div id="clockdiv" class="row">
+          <div class="col-sm-3">
+              <p><span class="days">0</span>:</p>
+              <div class="row"> 
+                <span class="badge badge-danger col-sm-12">Days</span>
+              </div>
+          </div>
+          <div class="col-sm-3">
+              <p><span class="hours">0</span>:</p>
+              <div class="row"> 
+                <span class="badge badge-danger col-sm-12">hours</span>
+              </div>
+          </div>
+          <div class="col-sm-3">
+              <p><span class="minutes">0</span>:</p>
+              <div class="row"> 
+                <span class="badge badge-danger col-sm-12">Mins</span>
+              </div>
+          </div>
+          <div class="col-sm-3">
+              <p><span class="seconds">0</span></p>
+              <div class="row"> 
+                <span class=" badge badge-danger col-sm-12">Secs</span>
+              </div>
+          </div>
+        </div>
+        <div>
+          <h1>Get set ready....</h1>
+        </div>
+        </div>
+      </section>
+      <footer>
+        <p>copyrights &copy Aspire Events</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

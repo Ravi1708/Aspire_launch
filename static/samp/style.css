@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+  line-height: 0.5;
+  padding: 0px;
+}
+
+section {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(img/logo_background.jpeg) center no-repeat;
+  min-height: 480px;
+}
+/* logos */
+.logos {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+}
+.logos img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.heading {
+  color: red;
+  font-weight: bold;
+}
+/*clock div */
+
+#clockdiv {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 0;
+  margin: 30px;
+  display: inline-flex;
+  text-align: center;
+}
+
+.badge {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+/*footer */
+footer {
+  background: white;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid red;
+}
